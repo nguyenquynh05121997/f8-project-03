@@ -17,7 +17,7 @@
 .logo {
     font-size: 1rem;
     position: relative;
-    display: flex;
+    display: inline-flex;
 }
 
 
@@ -693,4 +693,147 @@
 
 .contact__btn {
     margin: 38px auto 0;
+}
+
+/* footer */ 
+
+.footer {
+    margin-top: 170px;
+    padding-top: 100px;
+    padding-bottom: 42px;
+    background: #10375C;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.footer__logo {
+    
+}
+
+.footer__main-content {
+    display: grid;
+    /* background: goldenrod; */
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 78px;
+}
+
+.footer__sub-desc {
+    margin-top: 21px;
+    line-height: 1.75;
+    color: #A9B3BB;
+    
+}
+
+.footer__info {
+
+}
+
+.footer__list-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.footer__list-item {
+    margin-top: 20px;
+}
+
+.footer__item-link {
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #A9B3BB;
+}
+
+
+
+.footer__title {
+    font-weight: 600;
+    line-height: 1.75;
+    color: #FFFFFF;    
+}
+
+.footer__icon {
+    margin: 20px 0 28px;
+    display: flex;
+}
+
+.footer__img {
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.footer__img:hover {
+    background: #2E80CE;;
+}
+
+.footer__img:hover path {
+    fill: #fff
+}
+
+.footer__img + .footer__img {
+    margin-left: 10px;
+}
+
+.footer__sub-title {
+    width: 273px;
+    max-width: 100%;
+    margin-top: 20px;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #A9B3BB;
+}
+
+.footer__button {
+    margin-top: 10px;
+    display: flex;
+}
+
+.footer__input {
+    width: 212px;
+    height: 46px;
+    border: 1px solid #406181;
+    padding: 10px;
+    border-radius: 4px;
+    background: #10375C;
+    font-size: 1.4rem;
+    color: #9CA8B1;
+    outline: none;
+}
+
+.footer__submit {
+    flex: 1;
+    margin-left: 12px;
+    border: none;
+    border-radius: 4px;
+    height: 46px;
+    background: #2E80CE; 
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #FFFFFF;
+}
+
+.footer__submit:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.footer__line {
+    margin-top: 28px;
+    height: 1px;
+    width: 100%;
+    background: #406181;
+}
+
+.copy-right {
+    margin-top: 28px;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #AAB3BA;
 }
